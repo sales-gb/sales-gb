@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420" role="img" aria-label="Gabriel Sales Bezerra — Frontend Engineer">
+  <style>
+    .bg    { fill: #1a1b26; }
+    .bar   { fill: #23243244; }
+    .mono  { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; font-size: 13px; }
+    .key   { fill: #7aa2f7; font-weight: 700; }
+    .val   { fill: #c0caf5; }
+    .accent{ fill: #bb9af7; font-weight: 700; }
+    .dim   { fill: #565f89; }
+    .rule  { stroke: #2f334d; stroke-width: 1; }
+
+    /* opacity:1 é o estado base — se a animação não rodar, o card aparece completo.
+       'both' aplica o from-state durante o delay, então com animação o reveal acontece normalmente. */
+    .row { opacity: 1; animation: in .28s ease-out both; }
+    @keyframes in {
+      from { opacity: 0; transform: translateX(-8px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .r0{animation-delay:.05s}  .r1{animation-delay:.16s} .r2{animation-delay:.27s}
+    .r3{animation-delay:.38s}  .r4{animation-delay:.49s} .r5{animation-delay:.60s}
+    .r6{animation-delay:.71s}  .r7{animation-delay:.82s} .r8{animation-delay:.93s}
+    .r9{animation-delay:1.04s} .r10{animation-delay:1.15s} .r11{animation-delay:1.26s}
+    .r12{animation-delay:1.37s} .r13{animation-delay:1.48s}
+
+    .cursor { fill: #9ece6a; animation: blink 1.05s steps(1) infinite; animation-delay: 1.6s; opacity: 0; }
+    @keyframes blink { 0%,50% { opacity: 1 } 50.01%,100% { opacity: 0 } }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="700" height="420" rx="10"/>
+  <rect class="bar" x="0" y="0" width="700" height="34" rx="10"/>
+  <rect class="bar" x="0" y="24" width="700" height="10"/>
+  <circle cx="22" cy="17" r="5" fill="#f7768e"/>
+  <circle cx="40" cy="17" r="5" fill="#e0af68"/>
+  <circle cx="58" cy="17" r="5" fill="#9ece6a"/>
+  <text class="mono dim" x="82" y="22">gabriel@github — neofetch</text>
+
+  <g class="row r0">
+    <text class="mono accent" x="32" y="66">gabriel</text>
+    <text class="mono dim" x="90" y="66">@</text>
+    <text class="mono accent" x="100" y="66">github</text>
+  </g>
+  <line class="rule row r1" x1="32" y1="76" x2="668" y2="76"/>
+
+  <g class="mono">
+    <g class="row r2"><text class="key" x="32" y="100">role</text><text class="val" x="132" y="100">Frontend Engineer · 3+ yrs</text></g>
+    <g class="row r3"><text class="key" x="32" y="124">core</text><text class="val" x="132" y="124">TypeScript · React · Next.js · Tailwind</text></g>
+    <g class="row r4"><text class="key" x="32" y="148">mobile</text><text class="val" x="132" y="148">Flutter · Kotlin · React Native</text></g>
+    <g class="row r5"><text class="key" x="32" y="172">backend</text><text class="val" x="132" y="172">Node.js · NestJS · Ruby on Rails · PostgreSQL</text></g>
+    <g class="row r6"><text class="key" x="32" y="196">focus</text><text class="val" x="132" y="196">frontend architecture · reusable components</text></g>
+    <g class="row r7"><text class="key" x="32" y="220">debugging</text><text class="val" x="132" y="220">state · rendering · layout · cross-browser</text></g>
+    <g class="row r8"><text class="key" x="32" y="244">ai</text><text class="val" x="132" y="244">AI-assisted coding · context engineering · MCP</text></g>
+    <g class="row r9"><text class="key" x="32" y="268">education</text><text class="val" x="132" y="268">FIAP — Systems Analysis &amp; Development</text></g>
+    <g class="row r10"><text class="key" x="32" y="292">location</text><text class="val" x="132" y="292">São Paulo, Brazil · UTC−3</text></g>
+    <g class="row r11"><text class="key" x="32" y="316">open to</text><text class="val" x="132" y="316">remote roles · US / global teams</text></g>
+  </g>
+
+  <g class="row r12">
+    <rect x="32"  y="340" width="30" height="14" rx="3" fill="#1a1b26" stroke="#414868"/>
+    <rect x="66"  y="340" width="30" height="14" rx="3" fill="#f7768e"/>
+    <rect x="100" y="340" width="30" height="14" rx="3" fill="#e0af68"/>
+    <rect x="134" y="340" width="30" height="14" rx="3" fill="#9ece6a"/>
+    <rect x="168" y="340" width="30" height="14" rx="3" fill="#7dcfff"/>
+    <rect x="202" y="340" width="30" height="14" rx="3" fill="#7aa2f7"/>
+    <rect x="236" y="340" width="30" height="14" rx="3" fill="#bb9af7"/>
+    <rect x="270" y="340" width="30" height="14" rx="3" fill="#c0caf5"/>
+  </g>
+
+  <g class="row r13">
+    <text class="mono dim" x="32" y="386">gabriel@github ~ $</text>
+    <rect class="cursor" x="180" y="375" width="8" height="14"/>
+  </g>
+</svg>

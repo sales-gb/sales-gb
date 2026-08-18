@@ -1,0 +1,46 @@
+name: Update profile art
+
+# The portrait and the info card are static — regenerate those locally when the
+# photo or the details change. Only the contribution graph needs to stay live.
+
+"on":
+  schedule:
+    - cron: "17 6 * * *"   # ~03:17 BRT daily
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-profile-art.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: true
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # both scripts are standard library only, so there is nothing to install
+
+      - name: Scrape the public contribution calendar
+        run: python3 scripts/fetch_contributions.py
+        env:
+          GH_USER: ${{ github.repository_owner }}
+
+      - name: Render the animated heatmap
+        run: python3 scripts/render_heatmap_svg.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"
