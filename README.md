@@ -20,7 +20,7 @@
 <br>
 
 <div align="center">
-  <a href="https://gabrielsales.framer.ai/"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://gabrielsb.com/"><b>Portfolio</b></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/gabriel-sales-bezerra/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:gabrielsales081@gmail.com"><b>Email</b></a>
 </div>
