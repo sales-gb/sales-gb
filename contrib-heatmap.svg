@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="858" height="214" viewBox="0 0 858 214" role="img" aria-label="sales-gb — 1618 GitHub contributions in the last year">
+<svg xmlns="http://www.w3.org/2000/svg" width="858" height="214" viewBox="0 0 858 214" role="img" aria-label="sales-gb — 1626 GitHub contributions in the last year">
 <style>
     .t   { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
     .tot { fill: #c0caf5; font-size: 14px; font-weight: 700; }
@@ -27,8 +27,8 @@
     }
   </style>
 <rect x="0" y="0" width="858" height="214" rx="10" fill="#1a1b26"/>
-<text class="t tot late" x="18" y="32">1,618 contributions in the last year</text>
-<text class="t dim late" x="840" y="32" text-anchor="end">sales-gb · Aug 2025 — Aug 2026</text>
+<text class="t tot late" x="18" y="32">1,626 contributions in the last year</text>
+<text class="t dim late" x="840" y="32" text-anchor="end">sales-gb · Aug 2025 — Sep 2026</text>
 <text class="t lbl late" x="48" y="60">Aug</text>
 <text class="t lbl late" x="63" y="60">Sep</text>
 <text class="t lbl late" x="123" y="60">Oct</text>
@@ -410,8 +410,9 @@
 <rect class="c" x="813" y="143" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:1.678s"><title>2 on 2026-08-28</title></rect>
 <rect class="c" x="813" y="158" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:1.728s"><title>2 on 2026-08-29</title></rect>
 <rect class="c" x="828" y="68" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:1.456s"><title>1 on 2026-08-30</title></rect>
-<rect class="c" x="828" y="83" width="12" height="12" rx="2.5" fill="#232433" style="animation-delay:1.506s"><title>0 on 2026-08-31</title></rect>
-<text class="t dim late" x="18" y="196">current streak 21d · longest 21d · 222 active days · best 64 on 2026-08-20</text>
+<rect class="c" x="828" y="83" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:1.506s"><title>1 on 2026-08-31</title></rect>
+<rect class="c" x="828" y="98" width="12" height="12" rx="2.5" fill="#0e4429" style="animation-delay:1.556s"><title>7 on 2026-09-01</title></rect>
+<text class="t dim late" x="18" y="196">current streak 23d · longest 23d · 224 active days · best 64 on 2026-08-20</text>
 <text class="t lbl late" x="725" y="196" text-anchor="end">Less</text>
 <rect class="late" x="731" y="187" width="12" height="12" rx="2.5" fill="#232433"/>
 <rect class="late" x="746" y="187" width="12" height="12" rx="2.5" fill="#0e4429"/>
