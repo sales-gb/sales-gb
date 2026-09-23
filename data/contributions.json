@@ -1,11 +1,11 @@
 {
  "user": "sales-gb",
- "generated_at": "2026-09-22T11:39:34+00:00",
+ "generated_at": "2026-09-23T11:37:57+00:00",
  "range": {
   "from": "2025-09-21",
-  "to": "2026-09-22"
+  "to": "2026-09-23"
  },
- "total": 2673,
+ "total": 2682,
  "current_streak": 44,
  "longest_streak": 44,
  "best_day": {
@@ -1846,8 +1846,13 @@
   },
   {
    "date": "2026-09-22",
-   "count": 18,
+   "count": 27,
    "level": 1
+  },
+  {
+   "date": "2026-09-23",
+   "count": 0,
+   "level": 0
   }
  ]
 }
