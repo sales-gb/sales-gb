@@ -1,18 +1,18 @@
 {
  "user": "sales-gb",
- "generated_at": "2026-11-05T14:40:06+00:00",
+ "generated_at": "2026-11-06T14:17:00+00:00",
  "range": {
   "from": "2025-11-02",
-  "to": "2026-11-05"
+  "to": "2026-11-06"
  },
- "total": 3658,
- "current_streak": 87,
- "longest_streak": 87,
+ "total": 3695,
+ "current_streak": 89,
+ "longest_streak": 89,
  "best_day": {
   "date": "2026-10-02",
   "count": 157
  },
- "active_days": 260,
+ "active_days": 262,
  "days": [
   {
    "date": "2025-11-02",
@@ -1426,7 +1426,7 @@
   },
   {
    "date": "2026-08-11",
-   "count": 48,
+   "count": 49,
    "level": 2
   },
   {
@@ -1851,13 +1851,18 @@
   },
   {
    "date": "2026-11-04",
-   "count": 109,
-   "level": 3
+   "count": 120,
+   "level": 4
   },
   {
    "date": "2026-11-05",
-   "count": 0,
-   "level": 0
+   "count": 23,
+   "level": 1
+  },
+  {
+   "date": "2026-11-06",
+   "count": 2,
+   "level": 1
   }
  ]
 }
